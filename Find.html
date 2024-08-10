@@ -4,6 +4,7 @@
 <title>Untitled</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 <meta name="generator" content="Web Page Maker (unregistered version)">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 /*----------Text Styles----------*/
 .ws6 {font-size: 8px;}
@@ -31,6 +32,34 @@ DIV,UL,OL /* Left */
  margin-top: 0px;
  margin-bottom: 0px;
 }
+@media (max-width: 768px) { 
+    #image2, #image3, #image4, #image5 {
+        width: 100%; 
+        height: auto;  
+    }
+ #html1 {
+        left: 0; 
+        top: auto;
+        width: 100%;
+    }
+ #text1 {
+        text-align: center;
+    }
+}
+ button {
+   background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+}
 </style>
 
 </head>
@@ -46,7 +75,7 @@ DIV,UL,OL /* Left */
     <title>Nearest Polling Station Locator</title>
 </head>
 <body>
-    <h1>Find Your Nearest Polling Station in Karachi for PEC Election 2024</h1>
+    <h1>Find Your Nearest Polling Station for PEC Election 2024</h1>
     <button onclick="findNearestStation()">Find Nearest Station</button>
 
     <script>
